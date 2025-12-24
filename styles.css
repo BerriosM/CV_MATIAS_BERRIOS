@@ -1,0 +1,136 @@
+.mail {
+    color: #B85A22;
+}
+
+.cv-indent {
+    margin-left: 32px;
+}
+
+.cv-wrapper {
+    width: 100vw;
+    min-height: 100vh;
+    background: #a6a2a2;
+}
+
+.cv-sidebar {
+    background: #a6a2a2;
+    width: 270px;
+    min-height: 100vh;
+    font-size: 0.95rem;
+    border-right: 2px solid #bdbdbd;
+}
+
+.sidebar-title {
+    font-size: 1.6rem;
+    margin-bottom: 1.5rem;
+    padding-top: 45px !important;
+}
+
+.sidebar-info {
+    font-size: 0.92rem;
+    line-height: 1.7;
+}
+
+.sidebar-label {
+    font-family: "Aptos", sans-serif;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+
+.cv-main {
+    background: #fff;
+    min-height: 100vh;
+    padding-left: 35px !important;
+    padding-right: 35px !important;
+    padding-top: 35px !important;
+    padding-bottom: 25px !important;
+}
+
+.cv-name {
+    font-family: "Montserrat", sans-serif;
+    font-weight: lighter;
+    font-size: 45px;
+}
+
+.cv-subtitle {
+    font-size: 1.3rem;
+    color: #444;
+    margin-bottom: 1.2em;
+}
+
+.cv-section {
+    margin-bottom: 2.2em;
+}
+
+.cv-section-title {
+    font-size: 1.65rem;
+    font-weight: normal;
+    margin-bottom: 1em;
+    letter-spacing: 0.5px;
+}
+
+.cv-degree {
+    font-size: 0.98rem;
+    margin-bottom: 1.2em;
+}
+
+.cv-job {
+    font-size: 0.95rem;
+    margin-bottom: 1.2em;
+}
+
+.cv-job ul {
+    margin-top: 0.5em;
+    margin-bottom: 0;
+}
+
+.cv-skill-group {
+    margin-bottom: 1em;
+}
+
+.cv-skill-group ul {
+    margin-top: 0.3em;
+    margin-bottom: 0;
+}
+
+/* Links */
+a {
+    color: #0066cc;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #003366;
+}
+
+/* Ajustes para la impresión */
+
+@media print {
+    body {
+        background: #a6a2a2 !important;
+        -webkit-print-color-adjust: exact !important;
+        print-color-adjust: exact !important;
+        /* Puedes ajustar el tamaño aquí si lo deseas, pero lo ideal es cambiarlo en body y las clases principales */
+    }
+
+    .cv-wrapper {
+        background: #a6a2a2 !important;
+        -webkit-print-color-adjust: exact !important;
+        print-color-adjust: exact !important;
+    }
+
+    .cv-sidebar {
+        background: #a6a2a2 !important;
+        color: #000 !important;
+        border-right: 2px solid #bdbdbd !important;
+        -webkit-print-color-adjust: exact !important;
+        print-color-adjust: exact !important;
+    }
+
+    .cv-main {
+        background: #fff !important;
+        color: #000 !important;
+        -webkit-print-color-adjust: exact !important;
+        print-color-adjust: exact !important;
+    }
+}
